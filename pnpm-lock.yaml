@@ -37,9 +37,6 @@ devDependencies:
   '@typechain/hardhat':
     specifier: ^8.0.0
     version: 8.0.3(@typechain/ethers-v6@0.4.3)(ethers@6.11.1)(hardhat@2.22.1)(typechain@8.3.2)
-  '@types/dotenv':
-    specifier: ^8.2.0
-    version: 8.2.0
   '@types/mocha':
     specifier: '>=9.1.0'
     version: 10.0.6
@@ -1052,13 +1049,6 @@ packages:
       '@types/node': 20.11.27
     dev: false
 
-  /@types/dotenv@8.2.0:
-    resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
-    deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
-    dependencies:
-      dotenv: 16.4.5
-    dev: true
-
   /@types/form-data@0.0.33:
     resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
@@ -1739,6 +1729,7 @@ packages:
   /dotenv@16.4.5:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
+    dev: false
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
